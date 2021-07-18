@@ -47,6 +47,13 @@ button {
 
 .self-introduction h1 {
     font-family: monospace;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse{
+    0% { color: white;
+    } 100% { color: yellow;
+    }
 }
 
 .self-introduction p {
@@ -120,6 +127,7 @@ span {
     padding-left: 150px;
     margin-bottom: 35px;
     border-bottom: 5px solid grey;
+    animation: pulse 5s infinite;
 }
 
 .edu-title h3 {
@@ -161,6 +169,7 @@ span {
     padding-left: 150px;
     margin-bottom: 35px;
     border-bottom: 5px solid grey;
+    animation: pulse 5s infinite;
 }
 
 .work-title h3 {
@@ -197,6 +206,10 @@ span {
     padding-left: 150px;
     border-top: 5px solid grey;
   }
+
+  .contact-form h1 {
+    animation: pulse 5s infinite;
+  }
   
 input, textarea {
     width: 400px;
@@ -224,6 +237,7 @@ input, textarea {
 
 .footer h1 {
     padding-top: 10px;
+    animation: pulse 5s infinite;
 }
 
 .footer p {

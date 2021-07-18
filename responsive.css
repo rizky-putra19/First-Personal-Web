@@ -1,113 +1,405 @@
 @media all and (max-width: 1100px) {
-    .self-introduction {
-        padding-left: 100px;
-        padding-top: 95px;
-    }
     
-    .edu-title h3 {
-        float: left;
-        margin-top: -5px;
-        padding-right: 120px;
-        padding-left: 150px;
-    }
-    
-    .edu-sdua p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 15px;
-    }
-    
-    .edu-ssatu p {
-        float: left;
-        padding-left: 150px;
-        margin-right: -33px;
-    }
-    
-    .edu-sma p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 55px;
-    }
+.header {
+    width: 100%;
+    background-color: coral;
+    color: white;
+    height: 64px;
+    margin-bottom: 0px;
+}
 
-    .work-title h3 {
-        float: left;
-        margin-top: -5px;
-        padding-right: 120px;
-        padding-left: 150px;
-    }
-    
-    .work-latest p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 15px;
-    }
-    
-    .work-before p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 55px;
-    }
-    
-    .work-first p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 20px;
-    }
+.header-logo {
+    font-family: monospace;
+    float: left;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-toggle {
+    padding: 20px 20px;
+    float: right;
+    color: white;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: firebrick;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+
+.main-section { 
+   width: 100%;
+   background-color: brown;
+   color: white;
+}
+
+.self-introduction {
+    padding-left: 110px;
+    padding-top: 95px;
+}
+
+
+.self-introduction h1 {
+    font-family: monospace;
+}
+
+.self-introduction p {
+    font-family: monospace;
+    width: 450px;
+    padding-right: 155px;
+    margin-bottom: -100px;
+    line-height: 25px;
+    float: left;
+    font-size: 17px;
+}
+
+.self-contact {
+    margin-top: -100px;
+    margin-left: 100px;
+    padding-bottom: 120px;
+}
+
+.self-contact a {
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.WA {
+    background-color: green;
+    box-shadow: 0 7px grey;
+    margin-right: 10px;
+}
+
+.WA:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.IG {
+    background-color: #3f729b;
+    box-shadow: 0 7px grey;
+    margin-right: 10px;
+}
+
+.IG:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+} 
+
+span {
+    margin-right: 10px;
+}
+
+.intro-image img  {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: -40px;
+    padding-bottom: 120px;
+}
+
+.education-section {
+    background-color: darksalmon;
+    width: 100%;
+    height: 400px;
+    margin-top: -18px;
+    color: white;
+}
+
+.edu-title h1 {
+    font-family: monospace;
+    padding-top: 50px;
+    padding-left: 120px;
+    margin-bottom: 35px;
+    border-bottom: 5px solid brown;
+}
+
+.edu-title h3 {
+    float: left;
+    margin-top: -5px;
+    padding-right: 170px;
+    padding-left: 120px;
+}
+
+.edu-sdua p {
+    float: left;
+    padding-left: 120px;
+    margin-right: 60px;
+}
+
+.edu-ssatu p {
+    float: left;
+    padding-left: 120px;
+    margin-right: 12px;
+}
+
+.edu-sma p {
+    float: left;
+    padding-left: 120px;
+    margin-right: 97px;
+}
+
+.work-experiance {
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+    margin-top: -18px;
+    color: white;
+}
+
+.work-title h1 {
+    font-family: monospace;
+    padding-top: 50px;
+    padding-left: 120px;
+    margin-bottom: 35px;
+    border-bottom: 5px solid brown;
+}
+
+.work-title h3 {
+    float: left;
+    margin-top: -5px;
+    padding-right: 150px;
+    padding-left: 120px;
+}
+
+.work-latest p {
+    float: left;
+    padding-left: 120px;
+    margin-right: 45px;
+}
+
+.work-before p {
+    float: left;
+    padding-left: 120px;
+    margin-right: 86px;
+}
+
+.work-first p {
+    float: left;
+    padding-left: 120px;
+    margin-right: 50px;
+}
+
+.contact-form {
+    font-family: monospace;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: chocolate;
+    color: white;
+    padding-left: 120px;
+  }
+  
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+.contact-submit {
+    border: 1px solid #dee7ec;
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+
+.footer {
+    background-color: coral;
+    color: white;
+    height: 75px;
+    margin-top: -25px;
+    padding-bottom: 1px;
+    text-align: center;    
+}
+
+.footer h1 {
+    padding-top: 10px;
+}
+
+.footer p {
+    color:white;
+    margin-top: -20px;
+}
+
+}
+
+@media all and (max-width: 1000px) {
+.header {
+    width: 100%;
+}
+
+.header-logo {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.self-introduction{
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.self-introduction h1 {
+    font-size: 20px;
+}
+
+.self-introduction p {
+    font-size: 13px;
+    width: 43%;
+    margin-right: -20px;
+}
+
+.intro-image img{
+    width: 30%;
+    height: 250px;
+    margin-top: -25px;
+    border-radius: 10px;
+}
+
+.self-contact {
+    margin-left: 35px;
+}
+
+.edu-title h1 {;
+    padding-left: 50px;
+}
+
+.edu-title h3 {
+    padding-left: 50px;
+    padding-right: 147.5px;
+}
+
+.edu-sdua p {
+    font-size: 15px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+.edu-ssatu p {
+    font-size: 15px;
+    padding-left: 50px;
+    margin-right: 1px;
+}
+
+.edu-sma p {
+    font-size: 15px;
+    padding-left: 50px;
+    margin-right: 82px;
+}
+
+.work-title h1 {
+    padding-left: 50px;
+}
+
+.work-title h3 {
+    padding-left: 50px;
+    padding-right: 147.5px;
+}
+
+.work-latest p {
+    padding-left: 50px;
+    margin-right: 40px;
+}
+
+.work-before p {
+    padding-left: 50px;
+    margin-right: 81px;
+}
+
+.work-first p {
+    padding-left: 50px;
+    margin-right: 45px;
+}
+
+.contact-form {
+    padding-left: 50px;
+}
+
+
 }
 
 @media all and (max-width: 670px) {
-    .self-introduction {
-        padding-left: 100px;
-        padding-top: 95px;
+    .header {
+        width: 153%;
     }
-    
+
+    .main-section {
+        width: 153%;
+        text-align: left;
+    }
+
+    .self-introduction p {
+        width: 65%;
+        text-align: left;
+        font-size: large;
+    }
+
+    .intro-image img {
+        margin-left: 150px;
+        margin-top: 120px;
+    }
+
+    .self-contact {
+        margin-left: 100px;
+    }
+
+    .education-section {
+        width: 153%;
+    }
+
     .edu-title h3 {
-        float: left;
-        margin-top: -5px;
-        padding-right: 120px;
-        padding-left: 150px;
+        display:none;
     }
-    
+
     .edu-sdua p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 15px;
+        margin-right: 50px;
+        font-size: large;
     }
-    
-    .edu-ssatu p {
-        float: left;
-        padding-left: 150px;
-        margin-right: -33px;
+
+    .edu-ssatu, .edu-sma {
+        display: none;
     }
-    
-    .edu-sma p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 55px;
+
+    .work-experiance {
+        width: 153%;
     }
 
     .work-title h3 {
-        float: left;
-        margin-top: -5px;
-        padding-right: 120px;
-        padding-left: 150px;
+        display: none;
     }
-    
+
     .work-latest p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 15px;
+        font-size: large;
     }
-    
-    .work-before p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 55px;
+
+    .work-first, .work-before {
+        display: none;
     }
-    
-    .work-first p {
-        float: left;
-        padding-left: 150px;
-        margin-right: 20px;
+
+    .contact-form {
+        width: 146.5%;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    input, textarea {
+        width: 300px;
+    }
+
+    .footer {
+        width: 153%;
     }
 }
