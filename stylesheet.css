@@ -1,0 +1,234 @@
+
+.header {
+    width: 100%;
+    background-color: coral;
+    color: white;
+    height: 64px;
+    margin-bottom: 0px;
+}
+
+.header-logo {
+    font-family: monospace;
+    float: left;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-toggle {
+    padding: 20px 20px;
+    float: right;
+    color: white;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: firebrick;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+
+.main-section { 
+   width: 100%;
+   background-color: brown;
+   color: white;
+}
+
+.self-introduction {
+    padding-left: 230px;
+    padding-top: 95px;
+}
+
+
+.self-introduction h1 {
+    font-family: monospace;
+}
+
+.self-introduction p {
+    font-family: monospace;
+    width: 450px;
+    padding-right: 155px;
+    margin-bottom: -100px;
+    line-height: 25px;
+    float: left;
+    font-size: 17px;
+}
+
+.self-contact {
+    margin-top: -100px;
+    margin-left: 230px;
+    padding-bottom: 120px;
+}
+
+.self-contact a {
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.WA {
+    background-color: green;
+    box-shadow: 0 7px grey;
+    margin-right: 10px;
+}
+
+.WA:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.IG {
+    background-color: #3f729b;
+    box-shadow: 0 7px grey;
+    margin-right: 10px;
+}
+
+.IG:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+} 
+
+span {
+    margin-right: 10px;
+}
+
+.intro-image img  {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: -40px;
+    padding-bottom: 120px;
+}
+
+.education-section {
+    background-color: darksalmon;
+    width: 100%;
+    height: 400px;
+    margin-top: -18px;
+    color: white;
+}
+
+.edu-title h1 {
+    font-family: monospace;
+    padding-top: 50px;
+    padding-left: 150px;
+    margin-bottom: 35px;
+    border-bottom: 5px solid brown;
+}
+
+.edu-title h3 {
+    float: left;
+    margin-top: -5px;
+    padding-right: 220px;
+    padding-left: 150px;
+}
+
+.edu-sdua p {
+    float: left;
+    padding-left: 150px;
+    margin-right: 115px;
+}
+
+.edu-ssatu p {
+    float: left;
+    padding-left: 150px;
+    margin-right: 65px;
+}
+
+.edu-sma p {
+    float: left;
+    padding-left: 150px;
+    margin-right: 150px;
+}
+
+.work-experiance {
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+    margin-top: -18px;
+    color: white;
+}
+
+.work-title h1 {
+    font-family: monospace;
+    padding-top: 50px;
+    padding-left: 150px;
+    margin-bottom: 35px;
+    border-bottom: 5px solid brown;
+}
+
+.work-title h3 {
+    float: left;
+    margin-top: -5px;
+    padding-right: 205px;
+    padding-left: 150px;
+}
+
+.work-latest p {
+    float: left;
+    padding-left: 150px;
+    margin-right: 95px;
+}
+
+.work-before p {
+    float: left;
+    padding-left: 150px;
+    margin-right: 136px;
+}
+
+.work-first p {
+    float: left;
+    padding-left: 150px;
+    margin-right: 100px;
+}
+
+.contact-form {
+    font-family: monospace;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: chocolate;
+    color: white;
+    padding-left: 150px;
+  }
+  
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+.contact-submit {
+    border: 1px solid #dee7ec;
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+
+.footer {
+    background-color: coral;
+    color: white;
+    height: 75px;
+    margin-top: -25px;
+    padding-bottom: 1px;
+    text-align: center;    
+}
+
+.footer h1 {
+    padding-top: 10px;
+}
+
+.footer p {
+    color:white;
+    margin-top: -20px;
+}
